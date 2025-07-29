@@ -1,4 +1,4 @@
-cvar log = function(val, base) {
+var log = function(val, base) {
     return Math.log(val) / Math.log(base);
 };
 var strToClass = function(str){
@@ -303,7 +303,7 @@ $(function(){
             // Constants
             var numCols = 9;
             var columnWidth = 250;
-            var si/impleTitleHeight = 35;
+            var siimpleTitleHeight = 35;
             var titleSubtitleHeight = 50;
             var rowHeight = 25;
             var offsets = {
