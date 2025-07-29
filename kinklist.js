@@ -1,4 +1,4 @@
-var log = function(val, base) {
+cvar log = function(val, base) {
     return Math.log(val) / Math.log(base);
 };
 var strToClass = function(str){
@@ -301,9 +301,9 @@ $(function(){
             $('#URL').fadeOut();
 
             // Constants
-            var numCols = 6;
+            var numCols = 9;
             var columnWidth = 250;
-            var simpleTitleHeight = 35;
+            var si/impleTitleHeight = 35;
             var titleSubtitleHeight = 50;
             var rowHeight = 25;
             var offsets = {
