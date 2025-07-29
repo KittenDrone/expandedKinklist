@@ -302,8 +302,8 @@ $(function(){
 
             // Constants
             var numCols = 9;
-            var columnWidth = 250;
-            var siimpleTitleHeight = 35;
+            var columnWidth = 200;
+            var simpleTitleHeight = 35;
             var titleSubtitleHeight = 50;
             var rowHeight = 25;
             var offsets = {
